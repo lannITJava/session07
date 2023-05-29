@@ -1,0 +1,558 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(242, 244, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header>img{
+    margin-left: 30px;
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+}
+.avatar>img{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    margin-top: 5px;
+}
+header p{
+    font-size: 18px;
+    float: right;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+nav{
+    margin-top: 30px;
+    margin-left: 160px;
+    margin-bottom: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: gray;
+}
+nav a:nth-child(4){
+    color: rgb(228, 225, 225);
+}
+.inf{
+    width: 600px;
+    height: 330px;
+    margin-left: 150px;
+    
+}
+.inf>h2{
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+.inf>hr{
+    width: 500px;
+    margin-bottom: 50px;
+}
+.inf>h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.date{
+    width: 450px;
+    height: 60px;
+    background-color: rgb(225, 220, 220);
+    border-radius: 10PX;
+    margin-bottom: 15px;
+}
+.date>p{
+    padding-left: 15px;
+}
+.date> P:nth-child(1){
+    padding-top: 10PX;
+    font-weight: 600;
+}
+.date> P:nth-child(2){
+    padding-top: 5PX;
+    color: gray;
+}
+.name{
+    width: 450px;
+    height: 60px;
+    background-color: rgb(225, 220, 220);
+    border-radius: 10PX;
+}
+.name>p{
+    padding-left: 15px;
+}
+.name> p:nth-child(1){
+    padding-top: 10PX;
+    font-weight: 600;
+}
+.name> p:nth-child(2){
+    padding-top: 5PX;
+    color: gray;
+}
+.container1> img{
+    margin-top: 70px;
+    padding-left: 125px;
+    margin-bottom: 30px;
+   
+}
+.pay{
+    padding-left: 140px;
+    
+}
+.pay img{
+    width: 350px;
+}
+.pay> img:nth-child(1){
+    margin-right: 10px;
+}
+.pay p{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    
+
+}
+.number{
+    width: 500px;
+    height: 35px;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.number span, .number i{
+    margin-top: 8px;
+    padding-left: 15px;
+}
+.number span{
+    margin-right: 270px;
+}
+.number i{
+    color: skyblue;
+}
+.pay span:nth-child(5){
+    margin-right: 170px;
+}
+.pay .daymonth{
+    width: 220px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: rgb(249, 246, 246);
+    padding-left: 15px;
+    padding-top: 8px;
+    margin-top: 20px;
+    margin-right: 37px;
+    margin-bottom: 15px;
+}
+.pay .pass{
+    width: 220px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: rgb(249, 246, 246);
+    padding-left: 15px;
+    padding-top: 8px;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.cardinf{
+    display: flex;
+    justify-content: flex-start;
+}
+[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+.savecard{
+    margin-left: 10px;
+}
+.pay button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(42, 139, 213);
+    margin-top: 20px;
+    color: white;
+}
+.hotel{
+    width: 400px;
+    height: 850px;
+    border: 1px solid rgb(184, 182, 182);
+    border-radius: 15px;
+    margin-right: 130px;
+}
+.container1{
+    width: 900px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.hotel h4{
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.hotel i{
+    padding-left: 20px;
+    color: rgb(237, 189, 15);
+}
+.hotel img{
+    width: 350px;
+    height: 200px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.hotel .ra1{
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+.hotel hr{
+    width: 200px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 30px;
+}
+.time{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hotel .timein{
+    margin-right: 90px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+.hotel .timeout{
+    border-left: 1px solid gray;
+    padding-left: 15px;
+    line-height: 25px;
+}
+.hotel .guest{
+    margin-top: 20px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+.hotel h3{
+    margin-left: 20px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.money{
+    margin-left: 30px;
+    word-spacing: 5px;
+    margin-bottom: 20px;
+}
+.money span:nth-child(1){
+    padding-right: 160px;
+}
+.free{
+    margin-left: 30px;
+    word-spacing: 5px;
+    margin-bottom: 20px;
+}
+.free span:nth-child(1){
+    padding-right: 95px;
+}
+.service{
+    margin-left: 30px;
+    word-spacing: 5px;
+    margin-bottom: 20px;
+}
+.service span:nth-child(1){
+    padding-right: 185px;
+}
+.total{
+    width: 350px;
+    height: 35px;
+    background-color: rgb(225, 223, 223);
+    margin-left: 20px;
+    border-radius: 5px;  
+}
+
+.total span:nth-child(1){
+    padding-left:  10px;
+    margin-right: 250px;
+}
+.hotel> .ra2{
+    text-align: center;
+    margin-top: 30px;
+}
+.offer{
+    width: 1170px;
+    height: 250px;
+    background-image: url(./img/bg.png);
+    margin: 50px auto;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.offer h3{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.offer p{
+    line-height: 30px;
+}
+.offer div:nth-child(1){
+    width: 400px;
+}
+.offer div:nth-child(2){
+    width: 450px;
+    height: 70px;
+    background-color: white;
+    border-radius: 5px;
+}
+.sub span{
+    color: gray;
+    padding-left: 30px;
+   
+}
+.sub button{
+    padding: 15px 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 12px;
+}
+footer{
+    width: 1170px;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    
+    gap: 40px;
+}
+footer div{
+    width: 250px;
+    height: auto;
+
+}
+.div1{
+    margin-left: 40px;
+}
+.div1 img{
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+    margin-bottom: 30px;
+    
+}
+.div1 p{
+    line-height: 30px;
+}
+.div2 h5,
+.div3 h5,
+.div4 h5{
+    font-size: 28px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+.div2 p,
+.div3 p,
+.div4 p{
+    line-height: 30px;
+    color: gray;
+}
+
+@media screen and (max-width: 375px) {
+    .container{
+        width: 375px;
+        height: auto;
+        margin: 0 auto;
+    }
+    header{
+        width: 375px;
+        height: 50px;
+    }
+    header>img{
+        margin-left: 20px;
+        width: 100px;
+        height: 32px;
+        margin-bottom: 8px;
+    }
+    .avatar>img{
+        width: 32px;
+        height: 32px;
+        border-radius: 100%;
+        margin-top: 5px;
+    }
+    header p{
+        font-size: 14px;
+        float: right;
+        margin-right: 15px;
+        margin-left: 10px;
+        margin-top: 12px;
+    }
+    nav{
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-bottom: 50px;
+        font-size: 14px;
+    }
+    .inf{
+        width: 350px;
+        height: 330px;
+        margin-left: 15px;   
+    }
+    .inf>h2{
+        font-size: 30px;
+    }
+    .inf>hr{
+        width: 300px;
+    }
+    .inf>h3{
+        font-size: 24px;
+    }
+    .date{
+        width: 300px;
+    }
+    .name{
+        width: 300px;
+    }
+    .container1> img{
+        padding-left: 0px;
+        width: 350px;
+    }
+    .pay{
+        padding-left: 15px; 
+    }
+    .pay> img:nth-child(1){
+        margin-bottom: 20px;
+    }
+    .number{
+        width: 350px;
+    }
+    .number span, .number i{
+        margin-top: 8px;
+    }
+    .number span{
+        margin-right: 150px;
+        font-size: 14px;
+    }
+    .pay span:nth-child(5){
+        margin-right: 100px;
+    }
+    .pay .daymonth{
+        width: 150px;
+    }
+    .pay .pass{
+        width: 150px;
+    }
+    .savecard{
+        margin-left: 5px;
+    }
+    [type="checkbox"]{
+        width: 15px;
+        height: 15px;
+    }
+    .container1{
+        width: 375px;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+    .hotel{
+        width: 350px;
+        height: 850px;
+        margin-right: 0px;
+        margin-left: 15px;
+        margin-top: 50px;
+    }
+    .hotel h4{
+        font-size: 17px;
+    }
+    .hotel img{
+        width: 300px;
+    }
+    .money span:nth-child(1){
+        padding-right: 130px;
+    }
+
+    .free span:nth-child(1){
+        padding-right: 63px;
+    }
+    .service span:nth-child(1){
+        padding-right: 150px;
+    }
+    .total{
+        width: 320px; 
+    }
+    
+    .total span:nth-child(1){
+        margin-right: 215px;
+    }
+    .offer{
+        width: 350px;
+        height: 250px;
+        background-image: url(./img/bg.png 2x);
+        color: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .offer h3{
+        font-size: 24px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .offer p{
+        line-height: 30px;
+    }
+    .offer div:nth-child(1){
+        width: 250px;
+    }
+    .offer div:nth-child(2){
+        width: 250px;
+        height: 50px;
+
+    }
+    .sub span{
+        color: gray;
+        padding-left: 10px;
+        font-size: 14px;
+       
+    }
+    .sub button{
+        padding: 10px 15px;
+        margin-left: 15px;
+        margin-top: 8px;
+    }
+    footer{
+        width: 350px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    footer div{
+        margin-left: 40px;
+    }
+    
+    
+}
